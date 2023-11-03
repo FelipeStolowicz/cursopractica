@@ -1,0 +1,23 @@
+{
+  "name": "udemy-curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FS-module-async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    //se puede asignar una "variable" a unas plabras por ejemplo:
+    "start": "node app.js"
+    // entonces si pongo en la terminal: npm start. Lo que va a hacer es node app.js. Si no anda, habria que poner node run app.js (agregar el run)
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+      // Lo que hace nodemon es correr automatico el codigo ante cualquier cambio. Para activarlo hay que poner: npm run dev
+  }
+}
